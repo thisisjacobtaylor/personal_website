@@ -1,0 +1,551 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ 
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+ 
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+	font-weight: 400;
+	color: #000;
+
+} 
+
+a {
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fc45a0;
+}
+
+a:hover h6 {
+    color: #fc45a0;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+}
+
+
+/* #Masonry Styles
+================================================== */ 
+
+#masonrycontainer {
+	width:100%;
+	margin: 0 auto;
+    padding-left: 15px;
+}
+
+.work {
+}
+
+
+.item {
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}   
+
+.item h6 {
+    text-align: center;
+    margin-top: 10px;   
+}
+
+.item p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+}     
+
+
+.portfolio {
+margin: 0 auto;
+}
+
+/* #Page Styles
+================================================== */
+
+.hero {
+	background-color: #58d2d8;
+	background-image:
+    linear-gradient(
+      to bottom left, 
+        #ffb238, #f87355, #b80be2    
+    );
+	padding: 10px 0px 40px 0px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.contact {
+    margin-top: 15px;
+	float: right;
+    width: 94px;
+}
+
+.contact a {
+    border: 2px solid white;
+	padding: 2px 6px;
+    color: #fff;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ff9928; 
+    background-color: #fff;
+}
+
+
+.welcome {
+	margin: 0 auto;
+    margin-top: 15px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+.welcome h2 {
+    font-weight: 800;
+    line-height: 50px;
+}
+
+
+.welcome h4 {
+	color: #fff;
+	font-weight: 500;
+}
+
+
+.logo {
+	display: inline-block;
+	text-indent: -9999px;
+	width: 150px;
+	height: 150px;
+	background: url('../images/illuminati.svg');
+	background-size: 150px 150px;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 0px black;
+}
+
+.about {
+    border-top: 2px solid #bababa;
+	margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.footer {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #dedfe3;
+}
+
+.footer h3 {
+	line-height: 30px;
+}
+
+.avatar {
+	float: left;
+	margin-right: 20px;
+	margin-top: -6px;
+}
+
+.subnav {
+	padding-top: 10px;
+}
+
+.subnav ul {
+    float: left;
+    color: #000;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.subnav ul li {
+    display: inline;
+    position: relative;
+    padding-right: 16px;    
+}
+
+.subnav a {
+    color: #000;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.subnav a:hover {
+    color: #fc45a0;
+}
+
+.subnav p {
+    margin-bottom: 0px;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+}
+
+
+
+/* Project */
+
+
+.navigation {
+    background-color: #58d2d8;
+    background-image:
+    linear-gradient(
+      to left, 
+      #ffb238, #ef5ab8     
+    );
+    padding: 10px 0px 0px 0px;
+	margin-bottom: 50px;
+}
+
+
+.navwrap {
+    text-align: center;
+}
+
+.navlogo {
+    margin: 0 auto;
+	display: inline-block;
+	text-indent: -9999px;
+    width: 55px;
+	height: 55px;
+	background: url('../images/illuminati.svg');
+	background-size: 55px 55px;
+	margin-bottom: 10px;
+}
+
+.navigation .contact {
+    margin-right: 0px;
+}
+
+
+.back {
+    margin-top: 15px;
+	float: left;
+}
+
+.back a {
+    border: 2px solid white;
+	padding: 2px 12px;
+    color: #fff;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: #ff25b5; 
+    background-color: #fff;
+}
+
+.description {
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.description h3 {
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.description h6 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.description p {
+    margin-top: 10px;
+}
+
+
+.gallery {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.gallery img {
+    margin-bottom: 60px;
+}
+
+
+.rsvp {
+    float: left;
+    margin: 0px 10px 20px 10px;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+        
+        .hero {
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 50px;
+        }
+        
+        
+        .contact {
+        margin-top: 15px;
+        float: right;
+        width: 94px;
+        }
+        
+        
+        .description {
+            padding-bottom: 30px;
+            padding-right: 0px;
+        }
+        
+        
+        .rsvp {
+            float: none;
+            margin: 0 auto;
+            padding-bottom: 20px;
+            
+        }
+        
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+        .contact {
+        margin-top: 15px;
+        margin-right: 0px;
+        float: right;
+        width: 94px;
+        }
+        
+        .welcome {
+        padding: 0px 0px 30px 0px;
+        }   
+    
+    }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+        
+        .description {
+        text-align: center;
+        }
+    
+        .contact {
+        margin-top: 15px;
+        margin-right: 0px;
+        float: right;
+        width: 94px;
+        }
+        
+        .footer {
+        
+            padding-top: 5px;
+        
+        }
+
+    
+    }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+         .contact {
+        margin-top: 15px;
+        margin-right: 0px;
+        float: right;
+        width: 94px;
+        }
+        
+        .welcome {
+        padding: 0px 0px 30px 0px;
+        } 
+        
+        
+        .portfolio { 
+        margin-bottom: 30px; 
+        }
+    
+        
+        .about .alpha {
+            margin-bottom: 10px;
+        }
+        
+        .about h3 {
+            padding-right: 30px;
+        }
+        
+        
+        .subnav ul {
+            float: none;
+        }
+        
+        .subnav ul,
+		.subnav ul li,
+		.subnav ul li a {
+            text-align: center;
+        }
+        
+        .subnav ul li {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        
+        .subnav p {
+            float: none;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+        }
+        
+        
+        .description {
+            padding-right: 0px;
+        }
+
+    
+        .rsvp {
+            margin: 0 auto;
+        }
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+        
+         .contact {
+        margin-top: 15px;
+        margin-right: 0px;
+        float: right;
+        width: 94px;
+        }
+        
+        .welcome {
+        padding: 10px 0px 30px 0px;
+        } 
+        
+        .welcome h4 {
+	       color: #fff;
+	       font-weight: normal;
+            font-size: 17px;
+            line-height: 24px;
+        }   
+        
+        .portfolio {
+        
+            margin-bottom: 30px;
+        
+        }
+        
+        .about h3 {
+            font-size: 25px;
+        }
+        
+        .about .alpha {
+            margin-bottom: 10px;
+        }
+        
+        .about p {
+            padding: 0px;
+        }
+        
+        .subnav ul {
+            float: none;
+            text-align: center;
+        }
+        
+        
+        .subnav ul li {
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+        
+        .subnav p {
+            float: none;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        .description {
+            padding-right: 0px;
+        }
+
+
+
+    }
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+
+@font-face {
+	    font-family: 'Montserrat';
+	    src: url('../fonts/Montserrat-Regular.eot');
+	    src: url('../fonts/Montserrat-Regular.eot?iefix') format('eot'),
+	         url('../fonts/Montserrat-Regular.woff') format('woff'),
+	         url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+	         url('../fonts/Montserrat-Regular.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; 
+	    
+	    font-family: 'Montserrat';
+	    src: url('../fonts/Montserrat-Bold.eot');
+	    src: url('../fonts/Montserrat-Bold.eot?iefix') format('eot'),
+	         url('../fonts/Montserrat-Bold.woff') format('woff'),
+	         url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+	         url('../fonts/Montserrat-Bold.svg#webfontZam02nTh') format('svg');
+	    font-weight: bold;
+	    font-style: normal;
+	    }
