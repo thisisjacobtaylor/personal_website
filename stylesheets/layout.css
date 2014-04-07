@@ -110,7 +110,7 @@ margin: 0 auto;
 ================================================== */
 
 .hero {
-	background-color: #58d2d8;
+	background-color: #ff90a9;
 	background-image:
     linear-gradient(
       to bottom left, 
@@ -171,7 +171,6 @@ margin: 0 auto;
     background-image: url('../images/illuminati.svg'), none;
 	background-size: 150px 150px;
 	margin-bottom: 5px;
-	text-shadow: 1px 1px 0px black;
 }
 
 .about {
@@ -242,7 +241,7 @@ margin: 0 auto;
 
 
 .navigation {
-    background-color: #58d2d8;
+    background-color: #ff90a9;
     background-image:
     linear-gradient(
       to left, 
