@@ -29,7 +29,7 @@ html {
 
  
 body {
-   	font-family: 'Open Sans', 'Helvetica', sans-serif;
+   	font-family: 'open_sansregular', 'Helvetica', sans-serif;
     font-size: 15px;
     line-height: 22px;
 	font-weight: 400;
@@ -38,12 +38,16 @@ body {
 } 
 
 em { 
-   	font-family: 'Open Sans', 'Helvetica', sans-serif;
-    font-style: italic;
+   	font-family: 'open_sansitalic', 'Helvetica', sans-serif;
+    font-style: normal;
 }    
 
 a {
     text-decoration: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
 }
 
 p a {
@@ -106,7 +110,7 @@ margin: 0 auto;
 ================================================== */
 
 .hero {
-	background-color: #58d2d8;
+	background-color: #ff90a9;
 	background-image:
     linear-gradient(
       to bottom left, 
@@ -163,10 +167,10 @@ margin: 0 auto;
 	text-indent: -9999px;
 	width: 150px;
 	height: 150px;
-	background: url('../images/illuminati.svg');
+    background-image: url('../images/illuminati.png');
+    background-image: url('../images/illuminati.svg'), none;
 	background-size: 150px 150px;
 	margin-bottom: 5px;
-	text-shadow: 1px 1px 0px black;
 }
 
 .about {
@@ -183,7 +187,7 @@ margin: 0 auto;
     background-color: #dedfe3;
 }
 
-.footer h3 {
+.about h3 {
 	line-height: 30px;
 }
 
@@ -218,7 +222,6 @@ margin: 0 auto;
     font-weight: normal;
     font-size: 16px;
     text-decoration: none;
-    color: #000;
 }
 
 .subnav a:hover {
@@ -238,7 +241,7 @@ margin: 0 auto;
 
 
 .navigation {
-    background-color: #58d2d8;
+    background-color: #ff90a9;
     background-image:
     linear-gradient(
       to left, 
@@ -373,7 +376,12 @@ margin: 0 auto;
         
         .welcome {
         padding: 0px 0px 30px 0px;
-        }   
+        }  
+        
+        .about h3 {
+            font-size: 22px;
+            line-height: 24px;
+        }
     
     }
 
@@ -544,8 +552,12 @@ margin: 0 auto;
 	         url('../fonts/Montserrat-Regular.svg#webfontZam02nTh') format('svg');
 	    font-weight: normal;
 	    font-style: normal; 
-	    
-	    font-family: 'Montserrat';
+
+}
+
+@font-face{
+    
+        font-family: 'Montserrat';
 	    src: url('../fonts/Montserrat-Bold.eot');
 	    src: url('../fonts/Montserrat-Bold.eot?iefix') format('eot'),
 	         url('../fonts/Montserrat-Bold.woff') format('woff'),
@@ -553,35 +565,29 @@ margin: 0 auto;
 	         url('../fonts/Montserrat-Bold.svg#webfontZam02nTh') format('svg');
 	    font-weight: bold;
 	    font-style: normal;
-    
-    
-	    }
+}
 
-/* Regular */
+
 @font-face {
-    font-family: 'Open Sans';
-    
-    src: url('fonts/OpenSans-Regular-webfont.eot');
-    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
-    font-weight: 400;
     font-style: normal;
 
 }
 
-/* Italic */
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Italic-webfont.eot');
-    src: url('fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/OpenSans-Italic-webfont.woff') format('woff'),
-         url('fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
-         url('fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-family: 'open_sansitalic';
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
-    font-weight: 400;
-    font-style: italic;
+    font-style: normal;
 
 }
