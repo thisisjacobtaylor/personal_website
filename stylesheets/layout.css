@@ -260,10 +260,10 @@ margin: 0 auto;
     margin: 0 auto;
 	display: inline-block;
 	text-indent: -9999px;
-    width: 80px;
-	height: 80px;
+    width: 40px;
+	height: 40px;
 	background: url('../images/illuminati_eye.svg');
-	background-size: 80px 80px;
+	background-size: 40px 40px;
 	margin-bottom: 10px;
 }
 
@@ -347,7 +347,7 @@ margin: 0 auto;
         
         
         .contact {
-        margin-top: 15px;
+        margin-top: 10px;
         float: right;
         width: 94px;
         }
@@ -378,7 +378,7 @@ margin: 0 auto;
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
     
         .contact {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-right: 0px;
         float: right;
         width: 94px;
@@ -403,7 +403,7 @@ margin: 0 auto;
         }
     
         .contact {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-right: 0px;
         float: right;
         width: 94px;
@@ -422,7 +422,7 @@ margin: 0 auto;
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
          .contact {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-right: 0px;
         float: right;
         width: 94px;
@@ -484,7 +484,7 @@ margin: 0 auto;
 	@media only screen and (max-width: 479px) {
         
          .contact {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-right: 0px;
         float: right;
         width: 94px;
