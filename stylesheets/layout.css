@@ -416,6 +416,7 @@ margin: 0 auto;
             font-size: 22px;
             line-height: 24px;
         }
+        
     
     }
 
@@ -432,7 +433,6 @@ margin: 0 auto;
         float: right;
         width: 94px;
         }
-
     
     }
 
@@ -469,7 +469,7 @@ margin: 0 auto;
         
         
         .subnav ul {
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
         
@@ -499,6 +499,10 @@ margin: 0 auto;
         
         .about h3 {
             padding-right: 30px;
+        }
+        
+        .about .omega {
+            margin-bottom: 20px;
         }
         
         
@@ -605,9 +609,14 @@ margin: 0 auto;
             margin-bottom: 10px;
         }
         
+        .about .omega {
+            margin-bottom: 20px;
+        }
+        
         .about p {
             padding: 0px;
         }
+        
         
         .subnav ul {
             float: none;
