@@ -501,6 +501,37 @@ margin: 0 auto;
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
         
+        
+                /* #Sticky Footer
+        ================================================== */ 
+
+        * {
+          margin: 0;
+        }
+        html, body {
+          height: 100%;
+        }
+        .page-wrap {
+          min-height: 100%;
+          /* equal to footer height */
+          margin-bottom: -67px; 
+        }
+        .page-wrap:after {
+          content: "";
+          display: block;
+        }
+        .site-footer, .page-wrap:after {
+          /* .push must be the same height as footer */
+          height: 67px; 
+        }
+        .site-footer {
+            padding-top: 5px;
+            padding-bottom: 10px;
+            background-color: #dedfe3;
+        }
+        
+        
+        
          .contact {
         margin-top: 15px;
         margin-right: 0px;
