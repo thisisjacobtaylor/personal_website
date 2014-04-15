@@ -531,11 +531,10 @@ margin: 0 auto;
         }
         
         
-        .subnav p {
-        
-            padding-bottom: 5px;
-        
+        .subnav ul {
+            margin-bottom: 0px;
         }
+
         
          .contact {
         margin-top: 15px;
