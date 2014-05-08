@@ -341,6 +341,10 @@ margin: 0 auto;
     line-height: 15px;
 }
 
+.note {
+    margin-top: -60px;
+}
+
 
 .gallery {
     margin: 0 auto;
