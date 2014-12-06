@@ -55,11 +55,11 @@ p a {
 }
 
 a:hover {
-    color: #fc45a0;
+    color: #0000ff;
 }
 
 a:hover h6 {
-    color: #fc45a0;
+    color: #0000ff;
 }
  
 h1, h2, h3, h4, h5, h6 {
@@ -139,12 +139,7 @@ margin: 0 auto;
 ================================================== */
 
 .hero {
-	background-color: #ff90a9;
-	background-image:
-    linear-gradient(
-      to bottom left, 
-        #ffb238, #f87355, #b80be2    
-    );
+	background-color: #b0e2e0;
 	padding: 10px 0px 40px 0px;
 	margin-bottom: 50px;
 	width: 100%;
@@ -157,9 +152,10 @@ margin: 0 auto;
 }
 
 .contact a {
-    border: 2px solid white;
+    border: 2px solid;
+    border-color: #0000ff;
 	padding: 2px 6px;
-    color: #fff;
+    color: #0000ff;
 	font-family: 'Montserrat', 'Helvetica', sans-serif;
     font-weight: normal;
     font-size: 20px;
@@ -167,8 +163,8 @@ margin: 0 auto;
 }
 
 .contact a:hover {
-    color: #ff9928; 
-    background-color: #fff;
+    color: #b0e2e0; 
+    background-color: #0000ff;
 }
 
 
@@ -187,8 +183,8 @@ margin: 0 auto;
 
 
 .welcome h4 {
-	color: #fff;
-	font-weight: 500;
+	color: #37685d;
+	font-weight: 300;
 }
 
 
@@ -196,11 +192,10 @@ margin: 0 auto;
 
 	display: inline-block;
 	text-indent: -9999px;
-	width: 150px;
-	height: 150px;
-    background-image: url('../images/illuminati.png');
-    background-image: url('../images/illuminati.svg'), none;
-	background-size: 150px 150px;
+	width: 176px;
+	height: 219px;
+    background-image: url('../images/logo.png');
+	background-size: 176px 219px;
 	margin-bottom: 5px;
 }
 
@@ -249,7 +244,7 @@ margin: 0 auto;
 }
 
 .subnav a:hover {
-    color: #fc45a0;
+    color: #0000ff;
 }
 
 .subnav p {
@@ -265,12 +260,7 @@ margin: 0 auto;
 
 
 .navigation {
-    background-color: #ff90a9;
-    background-image:
-    linear-gradient(
-      to left, 
-      #ffb238, #ef5ab8     
-    );
+    background-color: #b0e2e0;
     padding: 10px 0px 0px 0px;
 	margin-bottom: 50px;
 }
@@ -303,9 +293,10 @@ margin: 0 auto;
 }
 
 .back a {
-    border: 2px solid white;
+    border: 2px solid;
+    border-color: #0000ff;
 	padding: 2px 12px;
-    color: #fff;
+    color: #0000ff;
 	font-family: 'Montserrat', 'Helvetica', sans-serif;
     font-weight: normal;
     font-size: 20px;
@@ -313,8 +304,8 @@ margin: 0 auto;
 }
 
 .back a:hover {
-    color: #ff25b5; 
-    background-color: #fff;
+    color: #b0e2e0; 
+    background-color: #0000ff;
 }
 
 .description {
@@ -594,8 +585,6 @@ margin: 0 auto;
         } 
         
         .welcome h4 {
-	       color: #fff;
-	       font-weight: normal;
             font-size: 17px;
             line-height: 24px;
         }   
